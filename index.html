@@ -8,32 +8,37 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
     />
-    <title>Document</title>
+    <title>Luiz Henrique Lima da Silva</title>
   </head>
   <body>
     <header>
-      <nav>
+      <nav class="nav_bar">
         <img src="" alt="Luiz Henrique Lima da Silva" />
         <h1>Luiz Henrique Lima da Silva</h1>
         <ul>
           <li><i class="fa-solid fa-book"></i> <a href="#home">Inicio</a></li>
           <li><i class="fa-solid fa-user"></i> <a href="#about">Sobre</a></li>
           <li>
-            <i class="fa-solid fa-envelope"></i> <a href="#contact">Contato</a>
+            <i class="fa-solid fa-book"></i> <a href="#things">Curiosidades</a>
           </li>
+          <li><i class="fa-solid fa-book"></i> <a href="#tales">Causos</a></li>
+          <li>
+            <i class="fa-solid fa-envelope"></i> <a href="#port">Portfolio</a>
+          </li>
+          <li><i class="fa-solid fa-book"></i> <a href="#rotina">Rotina</a></li>
         </ul>
       </nav>
     </header>
 
     <main>
-      <section class="hero">
+      <section class="hero" id="home">
         <div class="hero-content">
           <h2>Projeto Página Pessoal</h2>
           <button>CLICK</button>
         </div>
         <img src="images.png" class="banner" />
       </section>
-      <section class="sobre_min">
+      <section class="sobre_min" id="about">
         <h2>Sobre Mim:</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
@@ -42,7 +47,7 @@
           consectetur, hic voluptatum sed.
         </p>
       </section>
-      <section class="curiosidades">
+      <section class="curiosidades" id="things">
         <h3>Curiosidades:</h3>
         <ul>
           <li>Sei pescar</li>
@@ -52,20 +57,36 @@
           <li>Pratico esportes</li>
         </ul>
       </section>
-      <section class="causos">
+      <section class="causos" id="tales">
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae
           accusamus rerum, quas, cumque repellendus at vel deleniti a totam,
           nihil et atque quia quaerat nam quo harum ipsum quibusdam id!
         </p>
       </section>
-      <section class="portfolio">
-        <div class="cards"></div>
-        <div class="cards"></div>
-        <div class="cards"></div>
-        <div class="cards"></div>
+      <section class="portfolio" id="port">
+        <div class="cards">
+          <img src="images.png" />
+          <h4>title</h4>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+        <div class="cards">
+          <img src="images.png" />
+          <h4>title</h4>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+        <div class="cards">
+          <img src="images.png" />
+          <h4>title</h4>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+        <div class="cards">
+          <img src="images.png" />
+          <h4>title</h4>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
       </section>
-      <section class="rotina">
+      <section class="rotina" id="rotina">
         <table>
           <thead>
             <tr>
@@ -86,7 +107,7 @@
               <td>Trabalho escolar</td>
               <td>Exercício físico</td>
             </tr>
-            <tr>
+            <tr class="trcinza">
               <td>Terça</td>
               <td>Leitura de livro</td>
               <td>Projetos pessoais</td>
@@ -98,7 +119,7 @@
               <td>Aulas online</td>
               <td>Jogo ou lazer</td>
             </tr>
-            <tr>
+            <tr class="trcinza">
               <td>Quinta</td>
               <td>Estudo de inglês</td>
               <td>Revisão de conteúdos</td>
@@ -110,7 +131,7 @@
               <td>Projetos de grupo</td>
               <td>Filme ou socialização</td>
             </tr>
-            <tr>
+            <tr class="trcinza">
               <td>Sábado</td>
               <td>Organização do quarto</td>
               <td>Tempo com a família</td>
@@ -126,6 +147,40 @@
         </table>
       </section>
     </main>
-    <footer></footer>
+    <footer>
+      <h3>Luiz Henrique Lima da Silva</h3>
+      <section>
+        <div class="mapa_site">
+          <h5>Mapa da página</h5>
+          <ul>
+            <li><i class="fa-solid fa-book"></i> <a href="#home">Inicio</a></li>
+            <li><i class="fa-solid fa-user"></i> <a href="#about">Sobre</a></li>
+            <li>
+              <i class="fa-solid fa-book"></i>
+              <a href="#things">Curiosidades</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-book"></i> <a href="#tales">Causos</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-envelope"></i> <a href="#port">Portfolio</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-book"></i> <a href="#rotina">Rotina</a>
+            </li>
+          </ul>
+        </div>
+        <div class="midias_sociais">
+          <h5 style="padding-top: 12px;">Redes Sociais</h5>
+            <div>
+            <a href="https://youtube.com/@luizhenrique-d3b?si=k1Jmw1sSc3z037vt">
+              <i class="fa-brands fa-youtube"></i>
+            </a>
+            <a href="https://www.instagram.com/luizinhobr7" >
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            </div>
+      </section>
+    </footer>
   </body>
 </html>
